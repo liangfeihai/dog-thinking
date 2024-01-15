@@ -11,49 +11,49 @@ export function Component() {
   return (
     (<main
       className="flex flex-col items-center justify-center min-h-screen py-2">
-      <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">What is the cat thinking</h1>
+      <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">What is the dog thinking</h1>
       <p
         className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400 py-4">
-        Upload an image of a cat and we'll tell you what it might be thinking.
+        Upload an image of a dog and we'll tell you what it might be thinking.
       </p>
       <div className="w-full max-w-md px-2 py-2">
         <div className="grid w-full gap-2">
-          <Label htmlFor="catImage">Upload Cat Image</Label>
-          <Input id="catImage" type="file" />
+          <Label htmlFor="dogImage">Upload Dog Image</Label>
+          <Input id="dogImage" type="file" />
           <Button>Upload</Button>
         </div>
       </div>
       <Card className="max-w-md mt-8">
         <CardHeader>
           <div className="flex items-center">
-            <CatIcon className="w-6 h-6 mr-2" />
+            <DogIcon className="w-6 h-6 mr-2" />
             <h2 className="text-2xl font-bold">Analyzed Image</h2>
           </div>
         </CardHeader>
         <CardContent>
           <img
-            alt="Analyzed cat image"
+            alt="Analyzed dog image"
             className="aspect-content object-cover"
             height="500"
             src="/placeholder.svg"
             width="500" />
           <div className="mt-4 rounded-lg p-4">
             <SpeakerIcon className="w-6 h-6" />
-            <p className="ml-2 text-lg">🐱Cat: What the cat thinks{"\n                      "}</p>
+            <p className="ml-2 text-lg">🐱Dog: What the dog thinks{"\n                      "}</p>
           </div>
         </CardContent>
       </Card>
       <div className="flex flex-wrap justify-center gap-4 mt-8">
-        <CatIcon className="w-12 h-12" />
-        <CatIcon className="w-12 h-12" />
-        <CatIcon className="w-12 h-12" />
+        <DogIcon className="w-12 h-12" />
+        <DogIcon className="w-12 h-12" />
+        <DogIcon className="w-12 h-12" />
       </div>
     </main>)
   );
 }
 
 
-function CatIcon(props) {
+function DogIcon(props) {
   return (
     (<svg
       {...props}
