@@ -8,7 +8,7 @@ export default class MyDocument extends Document {
           {/* 在这里添加Google Analytics代码 */}
           <script
             async
-            src="https://www.googletagmanager.com/gtag/js?id=G-YBC3RTJHB4"
+            src="https://www.googletagmanager.com/gtag/js?id=G-2G5C08BJP8"
           />
           <script
             dangerouslySetInnerHTML={{
