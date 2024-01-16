@@ -140,11 +140,6 @@ export default function components() {
 
       <main className="flex flex-col items-center justify-center min-h-screen py-2">
         <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">What is the dog thinking</h1>
-        <div className="mt-4">
-          <a href="http://mao.jellyw.com" className="text-blue-500">中文</a>
-          <span> | </span>
-          <a href="http://cat.jellyw.com" className="text-blue-500">English</a>
-        </div>
         <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400 py-4">
           Upload an image of a dog and we'll tell you what it might be thinking.
         </p>
